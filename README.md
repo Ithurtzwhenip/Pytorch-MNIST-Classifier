@@ -1,5 +1,3 @@
-
-```markdown
 # PyTorch MNIST Classifier
 
 This project is my first PyTorch work, implementing a simple neural network to classify digits from the MNIST dataset.
