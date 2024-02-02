@@ -21,7 +21,7 @@ pip install torch torchvision
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/pytorch-mnist-classifier.git
+    git clone https://github.com/Ithurtzwhenip/Pytorch-MNIST-Classifier
     ```
 
 2. **Change into the project directory:**
@@ -33,7 +33,7 @@ pip install torch torchvision
 3. **Run the script:**
 
     ```bash
-    python your_script.py
+    python pytorch_simple_fullynet.py
     ```
 
 ## Usage
@@ -43,7 +43,7 @@ pip install torch torchvision
 To train the model, run the script. The model will be trained on the MNIST training dataset.
 
 ```bash
-python your_script.py
+python pytorch_simple_fullynet.py
 ```
 
 ### Evaluation
@@ -51,22 +51,12 @@ python your_script.py
 After training, the script will evaluate the model on both the training and test datasets, providing accuracy metrics.
 
 ```bash
-python your_script.py
+python pytorch_simple_fullynet.py
 ```
 
 ## Project Structure
 
-- `your_script.py`: Main Python script with neural network implementation and training/evaluation logic.
+- `pytorch_simple_fullynet.py`: Main Python script with neural network implementation and training/evaluation logic.
 - `dataset/`: Folder where the MNIST dataset will be downloaded and stored.
 - `README.md`: Documentation file.
 
-## Contributing
-
-Contributions are welcome! Open issues, submit pull requests, or suggest improvements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Feel free to replace "your_script.py" with the actual name of your Python script. This simplified version should be more straightforward for copy-pasting. Adjustments can always be made based on your specific needs.
